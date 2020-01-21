@@ -1,10 +1,34 @@
 <template>
   <div>
+    <!-- <nav class="top-nav">
+      <nuxt-link to="/">🏠</nuxt-link>
+      <nuxt-link to="/about">🤷</nuxt-link>
+      <nuxt-link to="/directory">👤</nuxt-link>
+      <nuxt-link to="/tasks">✅</nuxt-link>
+      <nuxt-link to="/posts">📝</nuxt-link>
+    </nav> -->
+
+    <!-- <div class="main-container"> -->
     <nuxt />
+    <!-- </div> -->
   </div>
 </template>
 
 <style>
+/* .main-container {
+  padding: 12px;
+} */
+
+.top-nav a {
+  margin: 12px;
+  font-size: 38px;
+  text-decoration: none;
+}
+
+.nuxt-link-exact-active {
+  background: powderblue;
+}
+
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
